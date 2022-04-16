@@ -1,0 +1,48 @@
+@media only screen and (max-width:1400px) {
+    .name {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+        font-size: 0.9rem;
+
+    }
+
+    .container {
+        display: grid;
+        justify-items: center;
+        grid-template-areas:
+            'Item '
+            'Item '
+            'Item '
+            'Item'
+    }
+    .Item a:hover{
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width:800px) {
+    .name {
+        font-size: 0.8rem;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+        font-size: 0.6rem;
+
+    }
+
+    .container {
+        display: grid;
+        justify-items: center;
+        grid-template-areas:
+            'Item '
+            'Item '
+            'Item '
+            'Item'
+    }
+    .Item a:hover{
+        cursor: pointer;
+    }
+}
